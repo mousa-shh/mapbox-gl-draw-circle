@@ -7,7 +7,7 @@ const moveFeatures = require('@mapbox/mapbox-gl-draw/src/lib/move_features');
 const Constants = require('@mapbox/mapbox-gl-draw/src/constants');
 const createSupplementaryPointsForCircle = require('../../lib/utils/create_supplementary_points_circle');
 
-let SimpleSelectMode = require('../../lib/modes/SimpleSelectModeOverride');
+let SimpleSelectMode = require('../../lib/modes/SimpleSelectModeOverride22');
 
 describe('SimpleSelectMode tests', () => {
   let mockState = {};
